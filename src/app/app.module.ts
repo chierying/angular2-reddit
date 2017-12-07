@@ -1,13 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { ArticleComponent } from './article/article.component';
+import {AppComponent} from './app.component';
+import {ArticleComponent} from './article/article.component';
+import { CommentComponent } from './comment/comment.component';
+import { FormdemoComponent } from './formdemo/formdemo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ArticleComponent
+    ArticleComponent,
+    CommentComponent,
+    FormdemoComponent,
   ],
   imports: [
     BrowserModule
@@ -15,4 +19,5 @@ import { ArticleComponent } from './article/article.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
